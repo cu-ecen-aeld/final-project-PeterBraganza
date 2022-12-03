@@ -109,7 +109,7 @@ static const struct file_operations hw_fops = {
     .write = hw_write,
     .open = hw_open,
     .release = hw_close,
-    .llseek = no_llseek,
+//    .llseek = no_llseek,
 };
 
 //Platform driver structure
