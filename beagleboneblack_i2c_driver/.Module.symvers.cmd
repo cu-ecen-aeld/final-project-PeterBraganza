@@ -1,1 +1,0 @@
-cmd_/mnt/build-cache/final-project-PeterBraganza/beagleboneblack_i2c_driver/Module.symvers := sed 's/\.ko$$/\.o/' /mnt/build-cache/final-project-PeterBraganza/beagleboneblack_i2c_driver/modules.order | scripts/mod/modpost -m -a  -o /mnt/build-cache/final-project-PeterBraganza/beagleboneblack_i2c_driver/Module.symvers -e -i Module.symvers   -T -
